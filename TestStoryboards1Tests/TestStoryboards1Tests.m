@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in TestStoryboards1Tests");
+    //STFail(@"Unit tests are not implemented yet in TestStoryboards1Tests");
 }
 
 @end
