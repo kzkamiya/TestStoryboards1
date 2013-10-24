@@ -24,6 +24,7 @@
 		D9086ED317791F6B007D626D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9086EAB17791F6A007D626D /* Foundation.framework */; };
 		D9086EDB17791F6B007D626D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9086ED917791F6B007D626D /* InfoPlist.strings */; };
 		D9086EDE17791F6B007D626D /* TestStoryboards1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9086EDD17791F6B007D626D /* TestStoryboards1Tests.m */; };
+		D9086EE917792542007D626D /* GTRNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9086EE817792542007D626D /* GTRNextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D9086EDA17791F6B007D626D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9086EDC17791F6B007D626D /* TestStoryboards1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestStoryboards1Tests.h; sourceTree = "<group>"; };
 		D9086EDD17791F6B007D626D /* TestStoryboards1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestStoryboards1Tests.m; sourceTree = "<group>"; };
+		D9086EE717792542007D626D /* GTRNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTRNextViewController.h; sourceTree = "<group>"; };
+		D9086EE817792542007D626D /* GTRNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTRNextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				D9086EC717791F6A007D626D /* GTRViewController.h */,
 				D9086EC817791F6A007D626D /* GTRViewController.m */,
 				D9086EB017791F6A007D626D /* Supporting Files */,
+				D9086EE717792542007D626D /* GTRNextViewController.h */,
+				D9086EE817792542007D626D /* GTRNextViewController.m */,
 			);
 			path = TestStoryboards1;
 			sourceTree = "<group>";
@@ -210,7 +215,7 @@
 			attributes = {
 				CLASSPREFIX = GTR;
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = dev2;
+				ORGANIZATIONNAME = "A'OMAI";
 			};
 			buildConfigurationList = D9086EA117791F6A007D626D /* Build configuration list for PBXProject "TestStoryboards1" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -278,6 +283,7 @@
 				D9086EB617791F6A007D626D /* main.m in Sources */,
 				D9086EBA17791F6A007D626D /* GTRAppDelegate.m in Sources */,
 				D9086EC917791F6A007D626D /* GTRViewController.m in Sources */,
+				D9086EE917792542007D626D /* GTRNextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +474,7 @@
 				D9086EE317791F6B007D626D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9086EE417791F6B007D626D /* Build configuration list for PBXNativeTarget "TestStoryboards1Tests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +483,7 @@
 				D9086EE617791F6B007D626D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
